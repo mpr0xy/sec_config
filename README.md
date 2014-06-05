@@ -12,7 +12,6 @@ sec_config
 填好了config，运行如下命令
 ```bash
 python sec_config.py generate_sec_config
-
 ```
 
 会产生sec_config
@@ -20,7 +19,7 @@ python sec_config.py generate_sec_config
 ```python
 config = start_sec_config()
 ```
-代码后面使用原始的config了，不过程序会在启动时要求输入生成sec_config时输入得key．如果输入错误，程序将无法启动．
+在上面这段代码后面就可以使用原始的config了，不过程序会在启动时要求输入生成sec_config时输入得key．如果输入错误，程序将无法启动．
 
 
 #意义：
